@@ -21,3 +21,4 @@ Trying out spring boot for API development
 * Tests were created using Mockito and JUnit. 
 
 * Mockito allows to create a "mock" entity and not mess with real objects/data
+* Java bean is a standard for classes

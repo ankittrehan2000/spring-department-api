@@ -1,6 +1,7 @@
 package com.springboottry.springbootdemo.Entity;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -14,6 +15,8 @@ import javax.validation.constraints.NotBlank;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+// builder pattern allows to build the class with any number of properties
+@Builder
 public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
