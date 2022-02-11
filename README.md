@@ -12,3 +12,5 @@ JPA repository is where the SQL magic happens
 
 @Autowired wires an object automatically to an object
 H-2 is in memory database
+
+Service layers contain business logic like validation and some changes before interacting with the repository
