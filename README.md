@@ -22,3 +22,4 @@ Trying out spring boot for API development
 
 * Mockito allows to create a "mock" entity and not mess with real objects/data
 * Java bean is a standard for classes
+* Actuator help to add some endpoints to monitor the health of the application
