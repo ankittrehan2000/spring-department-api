@@ -20,7 +20,7 @@ class DepartmentRepositoryTest {
 
     @BeforeEach
     void setUp() {
-        Department department = Department.builder().id(1L).code("CCI12").name("CCI").address("Philly").build();
+        Department department = Department.builder().code("CCI12").name("CCI").address("Philly").build();
         testEntityManager.persist(department);
     }
 
